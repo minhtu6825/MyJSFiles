@@ -1,1 +1,3 @@
-console.log('abc')
+self.addEventListener("message", function(e){
+    console.log(e.data);
+})
